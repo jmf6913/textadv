@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        //gold Bar, magicSword, softPillow, bigMace
+        Gold goldBar = new Gold(12);
+        Sword magicSword = new Sword();
+        Pillow softPillow = new Pillow();
+        Weapon bigMace = new Weapon("Iron Mace", "Rough and Tough", 15, 20);
+    }
+
+}
