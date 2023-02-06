@@ -20,7 +20,7 @@ public class Main {
         Zombie slowZombie = new Zombie("Stumbling Dead", 20, 100);
         Zombie fastZombie = new Zombie("World War Z Zombie", 5, 10);
         Dog spotDog = new Dog("Spot", 15, 2);
-        Warlock ancientOne = new Warlock("The Ancient One", 250, 25);
+        Warlock ancientOne = new Warlock("The Ancient One", 250, 25, Spells.Fireball);
     }
 
 }
