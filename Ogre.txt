@@ -1,0 +1,7 @@
+public class Ogre extends Enemy{
+
+    public Ogre(){
+        super("The Tall Guardian", 60, 40);
+
+    }
+}
