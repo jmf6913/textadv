@@ -1,0 +1,22 @@
+public class Enemy {
+    protected String name;
+    protected int health;
+    protected int damage;
+    protected boolean lifeStatus;
+    public Enemy(String name, int health, int damage){
+        this.name = name;
+        this.health = health;
+        this.damage = damage;
+        this.lifeStatus = lifeStatus;
+    }
+
+    public boolean lifeStatus() {
+        if (this.health >= 0);
+            lifeStatus = true;
+
+        if (this.health <= 0);
+            lifeStatus = false;
+        return lifeStatus;
+
+    }
+}
